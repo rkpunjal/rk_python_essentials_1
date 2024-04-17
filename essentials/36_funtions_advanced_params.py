@@ -1,5 +1,6 @@
 
 # default params
+# assign a value to it to make it a parameter
 print("---------------------------")
 
 def laugh(intensity = 2):
@@ -16,16 +17,16 @@ def slugify(message, separator="-"):
     return str(message).strip().replace(" ", separator)
 
 the_string = "hello world I LOVE YOU"
-the_sep = "_"
+separator = "_"
 print(f"slugify('{the_string}') : {slugify(the_string)}")
-print(f"slugify('{the_string}', '{the_sep}') : {slugify(the_string, the_sep)}")
+print(f"slugify('{the_string}', '{separator}') : {slugify(the_string, separator)}")
 
 
 print("---------------------------")
 
-# default parameters should come after non-default params
+# default parameters should come after non-default params (NOT before)
 
-def greet(name, phrase="Hi") :
+def greet(name, phrase="Hi") :   # fails for -->  def greet(phrase="Hi", name) :
     print(phrase,name)
 
 

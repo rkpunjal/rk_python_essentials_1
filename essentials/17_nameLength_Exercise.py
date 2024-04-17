@@ -5,7 +5,7 @@ name_length = len(first_name) + len(last_name)
 
 if name_length == 12:
     print(f"'{first_name + ' ' + last_name}' is exactly as long as an Average American name !")
-if name_length < 12:
+elif name_length < 12:
     print(f"'{first_name + ' ' + last_name}' is shorter than an Average American name !")
 else:
     print(f"'{first_name + ' ' + last_name}' is longer than an Average American name !")

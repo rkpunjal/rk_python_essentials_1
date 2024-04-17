@@ -8,4 +8,4 @@ more_chars = len(tweet) - max_length
 if more_chars > 0:
     print(f"Your tweet is '{more_chars}' longer than allowed '{max_length}' character")
 else:
-    print("Length is Ok!")
+    print(f"Length is Ok! It's {len(tweet)} chars long")

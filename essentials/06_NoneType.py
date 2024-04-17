@@ -1,4 +1,3 @@
-
 # None is a keyword
 
 # None is equivalent to null of java
@@ -7,3 +6,6 @@
 # type(None) gives NoneType
 
 
+my_variable = None  # un-initialized
+
+print("type(None) : ", type(None))

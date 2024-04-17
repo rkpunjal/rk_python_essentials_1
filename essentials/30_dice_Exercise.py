@@ -13,9 +13,9 @@ input_quit = ""
 
 while not str_dice_count.isdigit():
     str_dice_count = input("How many dice are we rolling (between 1 to 9) ? ")
-    if str_dice_count.isdigit() :
+    if str_dice_count.isdigit():
         dice_count = int(str_dice_count)
-        if dice_count > 0 and dice_count <= 9 :
+        if dice_count > 0 and dice_count <= 9:
             break
         else:
             str_dice_count = ""
@@ -25,9 +25,9 @@ while not str_dice_count.isdigit():
 # input for number of sides in each dice
 while not str_side_count.isdigit():
     str_side_count = input("How many sides in each dice (between 1 to 20) ? ")
-    if str_side_count.isdigit() :
+    if str_side_count.isdigit():
         side_count = int(str_side_count)
-        if side_count > 0 and side_count <= 20 :
+        if side_count > 0 and side_count <= 20:
             break
         else:
             str_side_count = ""

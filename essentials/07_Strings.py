@@ -28,8 +28,8 @@ print("index -3 of 'Punjal' : ", last_name[-3])
 # Slice String
 print("first_name[4:8] : ", first_name[4:9])
 
-print("first_name[4:] : ", first_name[4:])
-print("first_name[:3] : ", first_name[:3])
+print("first_name[4:] : ", first_name[4:])  # everything starting from index 4
+print("first_name[:3] : ", first_name[:3])  # everything till index 3
 
 # multi-line strings using triple quotes
 greeting = """Hello

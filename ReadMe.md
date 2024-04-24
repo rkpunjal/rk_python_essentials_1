@@ -23,8 +23,8 @@ Topics Covered
 18. Classes
 
 
-Topics NOT Covered
-====================
+Topics for next Project
+=========================
 1. Iterators
 2. Generators
 3. Decorators

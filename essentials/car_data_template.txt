@@ -1,0 +1,6 @@
+{% for car in cars -%}
+{{ car.name }} : {{ car.price }}
+{% endfor %}
+===========================================
+Total         : {{ cars | sum(attribute='price') }}
+===========================================

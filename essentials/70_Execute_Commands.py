@@ -5,6 +5,8 @@ import subprocess
 # Capture the output of a command
 result = subprocess.run(["powershell", "dir", "c:\\rkData"], capture_output=True, text=True)
 # result = subprocess.run(["powershell", "echo", "'Hello World!'"], capture_output=True, text=True)
+
+
 print(result.stdout)
 #
 subprocess.Popen('echo "Yohooo!!"', shell=True)

@@ -74,6 +74,7 @@ class colors:
 
 print(colors.fg.red, "Something more advanced", colors.bg.green, colors.fg.black, "With Background color", colors.reset)
 print("normal text")
+print(f"{colors.bold}{colors.foreground.yellow}Bold Yellow Text{colors.reset}")
 print("what about this", colors.italics, "ITALICS TEXT", colors.reset, "NORMAL", "\x1B[3m ITALICS \x1B[0m", "NORMAL")
 
 # print("\x1B[3mThis text\x1B[0m is \x1B[3mitalicized!\x1B[0m")
